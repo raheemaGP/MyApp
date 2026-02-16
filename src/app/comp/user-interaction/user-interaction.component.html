@@ -1,0 +1,12 @@
+<div class="section">
+ 
+  <h2 class="message">{{ message }}</h2>
+
+  <button (click)="onButtonClick()">Click Me 💖</button>
+
+  <div class="hover-area" (mouseenter)="onMouseEnter()">
+    Hover over this area 💕
+  </div>
+
+  <input type="text" placeholder="Type something cute..." (input)="onInputChange($event)">
+</div>
